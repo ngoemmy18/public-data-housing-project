@@ -59,7 +59,8 @@ The project combines narrative storytelling with data visualization to highlight
 
 ## Project Links
 
-- GitHub Repository: [\GITHUB LINK\\](https://github.com/ngoemmy18/public-data-housing-project)
+- GitHub Repository: [Repository](https://github.com/ngoemmy18/public-data-housing-project)
+- GitHub Page: [Seattle Housing](../../../Downloads/seattle_cost_burden_census.xls)
 
 ---
 
