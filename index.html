@@ -4,13 +4,15 @@
 <head>
     <meta charset="utf-8">
     <title>Housing Affordability and Homelessness in Seattle</title>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700;800;900&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -38,10 +40,12 @@
                     In 2024, King County estimated that more than 16,000 people were experiencing homelessness,
                     reflecting a significant increase in recent years.
                 </p>
-            
-                <p> 
-                    At the same time, housing costs across Seattle have risen dramatically. This project explores whether
-                    the increasing rent and housing costs burden may help explain broader homelessness trends throughout Seattle.
+
+                <p>
+                    At the same time, housing costs across Seattle have risen dramatically. This project explores
+                    whether
+                    the increasing rent and housing costs burden may help explain broader homelessness trends throughout
+                    Seattle.
                 </p>
             </div>
         </div>
@@ -49,50 +53,57 @@
 
 
     <!-- Data Sources / Methods -->
-     <section class="data-sources">
+    <section class="data-sources">
         <div class="content-container">
             <h2> Data Sources and Methods </h2>
             <p>
-                This project combines four datasets related to housing affordability and homelessness in Seattle and King County. 
-                Rent and apartment vacancy data were collected from the City of Seattle Open Data Portal, while housing cost burden 
-                data came from the U.S. Census Bureau American Community Survey (ACS). Homelessness counts were obtained from annual 
-                Point-in-Time reports published by the U.S. Department of Housing and Urban Development (HUD).    
+                This project combines four datasets related to housing affordability and homelessness in Seattle and
+                King County.
+                Rent and apartment vacancy data were collected from the City of Seattle Open Data Portal, while housing
+                cost burden
+                data came from the U.S. Census Bureau American Community Survey (ACS). Homelessness counts were obtained
+                from annual
+                Point-in-Time reports published by the U.S. Department of Housing and Urban Development (HUD).
             </p>
 
             <p>
-                To prepare the datasets for analysis, unnecessary columns were removed and only relevant years were retained. 
-                Neighborhood-level datasets were linked using shared geographic identifiers, while homelessness counts were analyzed 
-                separately because they represent county-wide totals rather than individual neighborhoods. 
+                To prepare the datasets for analysis, unnecessary columns were removed and only relevant years were
+                retained.
+                Neighborhood-level datasets were linked using shared geographic identifiers, while homelessness counts
+                were analyzed
+                separately because they represent county-wide totals rather than individual neighborhoods.
             </p>
 
             <p>
-              Several limitations should be considered. The homelessness counts are collected once per year and may underrepresent the full
-              population experiencing homelessness. Additionally, homelessness is influenced by many factors beyond rent prices alone, meaning 
-              this project identifies relationships in the data rather than direct causation.  
+                Several limitations should be considered. The homelessness counts are collected once per year and may
+                underrepresent the full
+                population experiencing homelessness. Additionally, homelessness is influenced by many factors beyond
+                rent prices alone, meaning
+                this project identifies relationships in the data rather than direct causation.
             </p>
 
-            <div class="sources-list"> 
-                            <div class="text-block">
+            <div class="sources-list">
+                <div class="text-block">
 
-                <p> 
-                    <strong>Seattle Open Data Portal:</strong> 
-                    <a href="https://data.seattle.gov/" target="_blank"> 
-                        data.seattle.gov 
-                    </a> 
-                </p> 
-                <p> 
-                    <strong>U.S. Census Bureau ACS:</strong>
-                    <a href="https://www.census.gov/programs-surveys/acs" target="_blank"> 
-                        census.gov/programs-surveys/acs 
-                    </a> 
-                </p> 
-                <p> <strong>HUD Point-in-Time Reports:</strong> 
-                    <a href="https://www.hudexchange.info/programs/hdx/pit-hic/" target="_blank"> hudexchange.info 
+                    <p>
+                        <strong>Seattle Open Data Portal:</strong>
+                        <a href="https://data.seattle.gov/" target="_blank">
+                            data.seattle.gov
+                        </a>
+                    </p>
+                    <p>
+                        <strong>U.S. Census Bureau ACS:</strong>
+                        <a href="https://www.census.gov/programs-surveys/acs" target="_blank">
+                            census.gov/programs-surveys/acs
+                        </a>
+                    </p>
+                    <p> <strong>HUD Point-in-Time Reports:</strong>
+                        <a href="https://www.hudexchange.info/programs/hdx/pit-hic/" target="_blank"> hudexchange.info
 
-                    </a> 
-                </p> 
-            </div> 
-        </div>
+                        </a>
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -102,15 +113,18 @@
         <div class="text-block">
             <h2> Rent and Homelessness Have Increased Together </h2>
             <p>
-                Over the past decade, Seattle experienced sharp increases in housing costs while homelessness counts across King County 
-                also continued torise. Although many factors contribute to homelessness, researchers have argued that housing affordability 
-                plays an important structural role.            
+                Over the past decade, Seattle experienced sharp increases in housing costs while homelessness counts
+                across King County
+                also continued torise. Although many factors contribute to homelessness, researchers have argued that
+                housing affordability
+                plays an important structural role.
             </p>
         </div>
         <div id="chart1"></div>
 
         <p class="takeaway">
-            Between 2012 and 2024, median rent prices and homelessness counts followed similar upward trends, particularly after 2021.
+            Between 2012 and 2024, median rent prices and homelessness counts followed similar upward trends,
+            particularly after 2021.
         </p>
     </section>
 
@@ -119,59 +133,110 @@
     <section class="bar-chart">
         <div class="text-block">
             <h2> Not Every Neighborhood Was Affected Equally</h2>
-            <p> 
-                Rising housing costs were not distributed evenly across Seattle. Some neighborhoods experienced 
-                substantially larger rent increases than others, reflecting broader patterns of displacement pressure, redevelopment, 
+            <p>
+                Rising housing costs were not distributed evenly across Seattle. Some neighborhoods experienced
+                substantially larger rent increases than others, reflecting broader patterns of displacement pressure,
+                redevelopment,
                 and housing inequality throughout the city.
             </p>
         </div>
         <div id="chart2"></div>
-        <p class="takeaway"> 
-            Neighborhoods such as High Point and Rainier Beach experienced some of the largest rent increases between 2014 and 2024. 
+        <p class="takeaway">
+            Neighborhoods such as High Point and Rainier Beach experienced some of the largest rent increases between
+            2014 and 2024.
         </p>
-            <div class="tooltip"></div>
+        <div class="tooltip"></div>
     </section>
 
     <!-- Visualization 3 Section -->
     <section class="map-section">
         <div class="text-block">
-            <h2> Housing Cost Burden Across Seattle </h2>
-            <p> 
-                Housing affordability pressures vary across Seattle neighborhoods. This map explores where residents spend a larger 
-                share of their income on housing costs and how these patterns compare geographically.            
+            <h2> Housing Cost Burden Across Seattle Census Tracts </h2>
+            <p class="map-description"> This map visualizes the percentage of renter households spending more than 30%
+                of their income
+                on housing across Seattle census tracts. Higher values indicate greater housing cost burden and
+                increased affordability
+                pressure within a neighborhood.
             </p>
-            <p> MAP GOES HERE </p>
         </div>
-        <div id="chart3"></div>
+        <div class="flourish-embed flourish-map" data-src="visualisation/29248630">
+        </div>
+        <p class="source-note">
+            Source: American Community Survey (ACS) Table B25070.
+        </p>
+        <div class="takeaways">
+            <h3>Key Findings</h3>
+            <div class="stat-grid">
+                <div class="stat-card">
+                    <h4>42.7%</h4>
+                    <p>Average housing cost burden across Seattle census tracts.</p>
+                </div>
+                <div class="stat-card">
+                    <h4>48 out of 171</h4>
+                    <p>Census tracts where a majority of renter households are cost burdened.</p>
+                </div>
+                <div class="stat-card">
+                    <h4>6</h4 <p>Census tracts where more than 70% of renter households are cost burdened.</p>
+                </div>
+                <div class="stat-card">
+                    <h4>6%–83%</h4>
+                    <p>Range of housing cost burden across Seattle census tracts.</p>
+                </div>
+            </div>
+            <div class="spatial-takeaway">
+                <h4>Spatial Pattern</h4>
+                <p>
+                    Housing affordability pressures are not evenly distributed across Seattle. High-burden census tracts
+                    appear throughout North
+                    Seattle, West Seattle, and South Seattle, while central portions of the city display a mix of both
+                    lower- and higher-burden tracts.
+                </p>
+            </div>
+        </div>
+        </div>
     </section>
 
 
     <!-- Conclusion Section -->
     <section class="conclusion">
         <div class="content-container">
-            <h2> Key Findings</h2>
-            <p class="conclusion-text"> 
-                Seattle’s rising housing costs and growing homelessness trends appear closely connected over the past decade. While homelessness 
-                is influenced by many social and economic factors, the data suggests that increasing rent prices and housing cost burden remain 
-                important structural pressures affecting housing stability throughout King County. As housing costs continue to rise faster than 
-                wages for many residents, more households face financial strain, displacement, and difficulty maintaining stable housing. These 
-                pressures can increase vulnerability for lower-income communities and contribute to broader patterns of housing insecurity across 
-                the region.          
+            <h2> Final Takeaways</h2>
+            <p class="conclusion-text">
+                Seattle’s rising housing costs and growing homelessness trends appear closely connected over the past
+                decade. While homelessness
+                is influenced by many social and economic factors, the data suggests that increasing rent prices and
+                housing cost burden remain
+                important structural pressures affecting housing stability throughout King County. As housing costs
+                continue to rise faster than
+                wages for many residents, more households face financial strain, displacement, and difficulty
+                maintaining stable housing. These
+                pressures can increase vulnerability for lower-income communities and contribute to broader patterns of
+                housing insecurity across
+                the region.
             </p>
-            <p class="conclusion-text"> 
-                The visualizations also show that housing affordability challenges were not experienced equally across neighborhoods. Some areas 
-                faced much larger rent increases than others, reflecting broader patterns of redevelopment, displacement, and unequal housing access 
-                throughout Seattle. Neighborhoods experiencing rapid growth and investment often saw dramatic increases in rent prices, making it 
-                increasingly difficult for long-term residents to remain in their communities. These uneven impacts highlight how housing affordability 
-                is not only an economic issue, but also a social and geographic one that affects communities differently depending on income, development 
-                patterns, and access to resources.       
+            <p class="conclusion-text">
+                The visualizations also show that housing affordability challenges were not experienced equally across
+                neighborhoods. Some areas
+                faced much larger rent increases than others, reflecting broader patterns of redevelopment,
+                displacement, and unequal housing access
+                throughout Seattle. Neighborhoods experiencing rapid growth and investment often saw dramatic increases
+                in rent prices, making it
+                increasingly difficult for long-term residents to remain in their communities. These uneven impacts
+                highlight how housing affordability
+                is not only an economic issue, but also a social and geographic one that affects communities differently
+                depending on income, development
+                patterns, and access to resources.
             </p>
-            <p class="conclusion-text"> 
-                Although this project does not suggest that housing costs are the sole cause of homelessness, the data demonstrates how affordability 
-                pressures remain deeply connected to housing instability in Seattle. Understanding these patterns is important for policymakers, 
-                community organizations, and residents seeking long-term solutions to housing insecurity. By examining rent increases, housing burden, 
-                and homelessness trends together, this project helps provide a broader understanding of how structural housing challenges continue to 
-                shape daily life across King County.   
+            <p class="conclusion-text">
+                Although this project does not suggest that housing costs are the sole cause of homelessness, the data
+                demonstrates how affordability
+                pressures remain deeply connected to housing instability in Seattle. Understanding these patterns is
+                important for policymakers,
+                community organizations, and residents seeking long-term solutions to housing insecurity. By examining
+                rent increases, housing burden,
+                and homelessness trends together, this project helps provide a broader understanding of how structural
+                housing challenges continue to
+                shape daily life across King County.
             </p>
         </div>
     </section>
@@ -181,13 +246,16 @@
         <p> Data Narrative Project by Emmy Ngo, Firdaus Thalib, Gordon Wong </p>
         <p> Universty of Washington Bothell </p>
         <p> B DATA 497: Public Data Investigations with Professor Nicole Cote </p>
-        <p class="footer-github"> GitHub Repository: <a href="https://github.com/your-repo-link" target="_blank"> View Project Code </a> </p>
+        <p class="footer-github"> GitHub Repository: <a href="https://github.com/your-repo-link" target="_blank"> View
+                Project Code </a> </p>
     </footer>
 
     <!-- D3 -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <!-- MAIN JS -->
     <script type="module" src="./main.js"></script>
+
+    <script src="https://public.flourish.studio/resources/embed.js"></script>
 
 </body>
 

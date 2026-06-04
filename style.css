@@ -141,6 +141,73 @@ p {
   font-size: 12px;
 }
 
+/* MAP SECTION */ 
+.flourish-embed { 
+  width: 100%; 
+  margin: 60px 0; 
+} 
+.map-description { 
+  margin-bottom: 40px; 
+} 
+.source-note { 
+  text-align: center; 
+  font-size: 14px; 
+  color: #64748b; 
+  margin-top: 20px; 
+} 
+
+/* MAP TAKEAWAYS */ 
+.takeaways { 
+  background: white;
+  border-radius: 18px; 
+  padding: 50px; 
+  margin-top: 80px; 
+  box-shadow: 0 2px 18px rgba(0,0,0,0.08); 
+} 
+
+.takeaways h3 { 
+  font-family: "League Spartan", sans-serif; 
+  font-size: 42px; 
+  margin-bottom: 40px; 
+  text-align: center; 
+} 
+
+.stat-grid { 
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+  gap: 24px; 
+  margin-bottom: 60px; 
+} 
+
+.stat-card { 
+  background: #f8fafc; 
+  border-radius: 16px; 
+  padding: 35px; 
+  text-align: center; 
+  border: 1px solid #e2e8f0; 
+} 
+
+.stat-card h4 { 
+  font-family: "League Spartan", sans-serif; 
+  font-size: 42px; margin-bottom: 10px; color: #0f172a; 
+} 
+
+.stat-card p { 
+  font-size: 17px; 
+  color: #475569; 
+} 
+
+.spatial-takeaway { 
+  max-width: 900px; margin: 0 auto; 
+  text-align: center; 
+} 
+
+.spatial-takeaway h4 { 
+  font-family: "League Spartan", sans-serif; 
+  font-size: 32px; 
+  margin-bottom: 20px; 
+}
+
 /* TOOLTIP */
 .tooltip {
   position: absolute;
